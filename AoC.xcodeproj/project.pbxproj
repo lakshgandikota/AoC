@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A31A68362581AE4C00185691 /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31A68352581AE4C00185691 /* Day3.swift */; };
 		A3229FBB2578519C00B0A6B3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3229FBA2578519C00B0A6B3 /* main.swift */; };
+		A3229FC3257851B600B0A6B3 /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3229FC2257851B600B0A6B3 /* Day2.swift */; };
+		A3A9EBC82581A64800D47C19 /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A9EBC72581A64800D47C19 /* Day1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A31A68352581AE4C00185691 /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
 		A3229FB72578519C00B0A6B3 /* AoC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AoC; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3229FBA2578519C00B0A6B3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A3229FC2257851B600B0A6B3 /* Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
+		A3A9EBC72581A64800D47C19 /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				A3229FBA2578519C00B0A6B3 /* main.swift */,
+				A3A9EBC72581A64800D47C19 /* Day1.swift */,
+				A3229FC2257851B600B0A6B3 /* Day2.swift */,
+				A31A68352581AE4C00185691 /* Day3.swift */,
 			);
 			path = AoC;
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3229FBB2578519C00B0A6B3 /* main.swift in Sources */,
+				A3A9EBC82581A64800D47C19 /* Day1.swift in Sources */,
+				A31A68362581AE4C00185691 /* Day3.swift in Sources */,
+				A3229FC3257851B600B0A6B3 /* Day2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

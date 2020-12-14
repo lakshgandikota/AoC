@@ -7,5 +7,12 @@
 
 import Foundation
 
-print("Hello, World!")
+struct Part {
+    var answer: Int64 = 0
+}
 
+//print(Day1().part1.answer)
+//print(Day1().part2.answer)
+//print(Day2().part1.answer)
+//print(Day2().part2.answer)
+print(Day3().part1.answer)
